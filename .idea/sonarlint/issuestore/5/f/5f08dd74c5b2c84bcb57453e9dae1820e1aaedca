@@ -1,0 +1,17 @@
+
+[
+java:S5993"9Change the visibility of this constructor to "protected".(˜ÆÿËûÿÿÿÿ8ºÚÓ“ò1
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ú£ùüÿÿÿÿÿ8»ÚÓ“ò1
+L	java:S106"+Replace this use of System.out by a logger.(Ñóªïùÿÿÿÿ8½ÚÓ“ò1
+L	java:S106$"+Replace this use of System.out by a logger.(îÇâÉúÿÿÿÿ8¿ÚÓ“ò1
+G	java:S106)"+Replace this use of System.out by a logger.(ÓÇ²í8¿ÚÓ“ò1
+L	java:S106."+Replace this use of System.out by a logger.(ÜéÀªûÿÿÿÿ8ÀÚÓ“ò1
+L	java:S106:"+Replace this use of System.out by a logger.(Ë½†µúÿÿÿÿ8ÁÚÓ“ò1
+G	java:S106?"+Replace this use of System.out by a logger.(›¸­Ç8ÁÚÓ“ò1
+L	java:S106D"+Replace this use of System.out by a logger.(¯â…òûÿÿÿÿ8ÁÚÓ“ò1
+G	java:S106P"+Replace this use of System.out by a logger.(á¨8ÂÚÓ“ò1
+G	java:S106["+Replace this use of System.out by a logger.(‡–8ÂÚÓ“ò1
+G	java:S106f"+Replace this use of System.out by a logger.(°ı‰8ÃÚÓ“ò1
+F	java:S106q"+Replace this use of System.out by a logger.(ÇÚƒh8ÃÚÓ“ò1
+H	java:S106ƒ"+Replace this use of System.out by a logger.(¹éïï8ÄÚÓ“ò1

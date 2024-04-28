@@ -1,0 +1,58 @@
+Questions:
+1. What types of variables we have in Java. Define all of them and explain the differences
+
+    - Local Variables: Defined inside methods, constructors, or blocks and destroyed once the method, constructor, or block exits.
+    - Instance Variables: Defined without the static keyword. They are unique to each instance of a class.
+    - Static Variables: Defined with the static modifier. They are shared among all instances of the class.
+
+2. What is the constructor? Use of a constructor in the class? Difference between constructor and a method?  Can we overload a constructor?
+
+    - Definition: A constructor is a special method used to initialize objects.
+    - Use: It is called when an instance of a class is created.
+    - Difference from Methods: A constructor has the same name as the class and no return type. Methods can have any name and usually have a return type.
+    - Overloading: Yes, constructors can be overloaded by changing the number and type of parameters.
+
+3. What is the usage of super and this? Super vs this? Super() vs super.? this() vs this.
+
+    - this: Refers to the current object. It's used to access class methods and variables, and to call a constructor from another overloaded constructor in the same class.
+    - super: Refers to the superclass (parent class). It's used to access superclass methods and variables, and to call the superclass constructor.
+    - super() vs super.: super() calls the constructor of the parent class, while super. is used to access members (methods or fields) of the parent class.
+    - this() vs this.: this() calls another constructor in the same class, while this. is used to reference the current class’s members.
+
+4. What is Inheritance? Benefits? Types? Explain each type
+
+    - Definition: Allows a class to inherit attributes and methods from another class.
+    - Benefits: Code Reusability, Method Overriding, etc.
+    - Types: Single, Multilevel, Hierarchical, and Hybrid (combination of two or more of the previous types).
+
+5. What is Overloading? How can it be achieved? What can we overload and what we cannot?
+
+    - Definition: Allows a class to have more than one method with the same name, but different parameters.
+    - Achievement: By varying the method's parameter type, order, or number.
+    - Limitations: Cannot overload by changing the return type alone.
+
+6. What is Overriding? How can it be achieved? What can we override and what we cannot?
+
+    - Definition: Allows a subclass to provide a specific implementation of a method already provided by its superclass.
+    - Achievement: By declaring a method in the subclass with the same signature as in the parent class.
+    - Limitations: The method must have the same name, return type, and parameters. You cannot override static methods.
+
+7. What is Polymorphism? Types of Polymorphism? Differences between Overloading & Overriding?
+
+    - Types: Compile-time (overloading) and Runtime (overriding).
+    - Differences: Overloading is resolved at compile-time, whereas overriding is resolved at runtime.
+    - Overloading improves readability, while overriding is used to provide specific implementations of methods.
+
+8. What is the final keyword,usage and purpose?
+
+    - Usage: To declare constants, prevent method overriding, and inheritance.
+    - Purpose: Provides immutability to variables, security to methods, and restricts inheritance.
+
+9. What is Abstraction? How can we achieve an Abstraction in Java? What is Interface? What is Abstract Class? Interface vs Abstract Class?
+
+    - Definition: Hiding the implementation details and showing only essential features of an object.
+    - Achievement: Through abstract classes and interfaces.
+    - Abstract Class vs Interface:
+    - Abstract Class: Can have abstract and non-abstract methods. Supports a constructor.
+    - Interface: Only abstract methods until Java 8, after which default and static methods are allowed. Does not support constructors.
+    - Both are used to achieve abstraction but are used in different scenarios based on the need for multiple inheritances and method implementation.
